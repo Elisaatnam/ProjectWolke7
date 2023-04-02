@@ -1,0 +1,31 @@
+@font-face {
+    font-family: space;
+    src: url(../SpaceGrotesk-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    font-family: space, sans-serif;
+    height: 100vh;
+    background: url(../img/maincloud.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+
+nav {
+    text-align: center;
+    padding-top: 45vh;
+    
+}
+
+a {
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}

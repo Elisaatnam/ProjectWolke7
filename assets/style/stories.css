@@ -1,0 +1,118 @@
+@font-face {
+    font-family: space;
+    src: url(../SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+/* GENERAL STYLE */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: space, sans-serif;
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    line-height: 19px;
+}
+
+.micro p, .gentrify p {
+    color: white;
+}
+
+.baby p {
+    color: #3C3C3C;
+}
+
+.pabst p {
+    color: #9175A5;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 15px;
+    color: #5C5C5C;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+}
+
+section {
+    height: 40vh;
+    width: 90vw;
+    margin: 5rem auto 5rem 5rem;
+}
+
+
+/* header */
+nav {
+    text-align: right;
+    padding: 2.5vh;
+}
+
+a {
+    font-size: 2.4rem;
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* MAIN */
+/* .MICRO - SECTION 1 */
+
+.micro {
+    background: url(../img/cloud4.jpg) no-repeat center;
+    background-size: cover;
+    padding: 8.2rem 6.8rem 18.5rem 50rem;
+}
+
+.micro p::first-letter {
+    font-size: 3.5rem;
+}
+
+.gold {
+    color: #FEBB80;
+}
+
+/* .BABY - SECTION 2 */
+
+.baby {
+    background: url(../img/cloud1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 10rem 50rem 11rem 12rem;
+}
+
+/* .GENTRIFY -SECTION 3 */
+
+.gentrify {
+    background: url(../img/cloud5.jpeg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 12rem 30rem;
+}
+
+/* .PABST - SECTION 4 */
+
+.pabst {
+    background: url(../img/cloud2.jpg) no-repeat center;
+    background-size: cover;
+    padding: 10rem 40rem 5rem 4rem;
+}
+
+.white {
+    color: rgba(255, 255, 255, 0.466);
+}
+
+/* FOOTER */
+footer {
+    height: 10vh;
+    text-align: center;
+}
+
+footer p {
+    font-size: 2rem;
+}
